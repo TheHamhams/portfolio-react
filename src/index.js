@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/';
 import './index.css';
-import { Home, NavBar, Work } from './components'
+import { Home, NavBar, Work, About } from './components'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,6 +20,11 @@ ReactDOM.render(
       <Route exact path='/work'>
         <NavBar />
         <Work />
+      </Route>
+
+      <Route exact path='/about'>
+        <NavBar />
+        <About />
       </Route>
 
     </Switch>

@@ -15,6 +15,7 @@ export const NavBar = () => {
       <Nav className='ms-auto'>
         <Nav.Link className="p-3 mx-2 rounded nav-style lernk" style={{color: 'var(--flame)'}} href='/'>Home</Nav.Link>
         <Nav.Link className="p-3 mx-2 rounded nav-style lernk" style={{color: 'var(--flame)'}} href='/work'>Work</Nav.Link>
+        <Nav.Link className="p-3 mx-2 rounded nav-style lernk" style={{color: 'var(--flame)'}} href='/about'>About</Nav.Link>
       </Nav>
     </Container>
   </Navbar>
