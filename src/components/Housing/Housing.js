@@ -18,10 +18,10 @@ export const Housing = () => {
         <Col className='2' />
 
         <Col className='fire rounded col-7'>
-          <h3 className='text-start fs-1'>Full Stack Developer Weather App</h3>
+          <h3 className='text-start fs-1'>Full Stack Housing Prediction ML App</h3>
           <ul>
-              <li className='my-5 fs-5'>Created a web app with React for front-end and Flask for back-end enabling users  to login with Auth0, save their location and up to 3 others in an ElephantSQL database</li>
-              <li className='fs-5'>Leveraged weather.gov’s API to get the current weather forecast for those locations.</li>
+              <li className='my-5 fs-5'>Analyzed the housing database from Kaggle to create a price prediction model which scored in the top 1% of Kaggle submissions at the time. Programmed Streamlit in Flask to create a web app to make predictions with information from the database.</li>
+              <li className='fs-5'>Model utilizes over 100 parameters, one-hot-encoding, ordinal-encoding to aid the predictions.</li>
           </ul>
           <Button className='mx-5' variant='dark' href='https://hamren-housing.herokuapp.com/'><span className="fire"><FontAwesomeIcon icon={faHouse} /> Visit</span></Button>
           <Button className="mx-5" variant='dark' href='https://github.com/TheHamhams/housing-flask'><span className='fire'><FontAwesomeIcon icon={faGithub} /> Flask</span></Button>
