@@ -4,12 +4,9 @@ import Pic from '../../assets/images/home.jpg'
 
 export const Home = () => {
   return (
-    <div className='background py-5'>
+    <div className='background pt-5'>      
 
-
-      
-
-      <Container className='rounded my-5 cus-font'>
+      <Container className='rounded mt-5 cus-font'>
         <Row className='d-flex'>
           <Col className='fire rounded col-7'>
             <h3 className='text-start large'>Full Stack Developer</h3>
@@ -24,6 +21,7 @@ export const Home = () => {
           </Col>
         </Row>
       </Container>
+      
     </div>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/';
 import './index.css';
-import { Home, NavBar, Work, About } from './components'
+import { NavBar, Footer, Layout } from './components'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 ReactDOM.render(
@@ -12,20 +13,12 @@ ReactDOM.render(
   <Router>
     <Switch>
 
-      <Route exact path='/'>
+      <Route exaxt path='/'>
         <NavBar />
-        <Home />
+        <Layout />
+        <Footer />
       </Route>
 
-      <Route exact path='/work'>
-        <NavBar />
-        <Work />
-      </Route>
-
-      <Route exact path='/about'>
-        <NavBar />
-        <About />
-      </Route>
 
     </Switch>
   </Router>

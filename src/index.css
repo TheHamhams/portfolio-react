@@ -24,6 +24,10 @@ body, html {
   background-color: var(--eerie-black);
 }
 
+h3 {
+  color: var(--flame)
+}
+
 .background {
   background-color: var(--eerie-black);
 }
@@ -34,7 +38,7 @@ body, html {
 }
 
 .fire {
-  color: var(--flame)
+  color: var(--floral-white)
 }
 
 .nav-style {
@@ -56,4 +60,10 @@ body, html {
 
 .btn-fire {
   background-color: var(--flame);
+}
+
+.cont {
+  background-color: rgb(24, 23, 23);
+  padding: 5vh;
+  
 }

@@ -1,4 +1,5 @@
 export * from './Home'
 export * from './NavBar'
 export * from './Work'
-export * from './About'
+export * from './Footer'
+export * from './Layout'

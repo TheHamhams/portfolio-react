@@ -9,10 +9,10 @@ export const Portfolio = () => {
   return (
     <div className='background py-5'>
     
-    <Container className='rounded my-5 cus-font'>
-      <Row className='d-flex'>
+    <Container className='rounded my-5 cus-font cont'>
+      <Row className='d-flex px-4'>
         <Col className='fire rounded col-7'>
-          <h3 className='text-start fs-1'>Portfolio Web App</h3>
+          <h3 className='text-center fs-1'>Portfolio Web App</h3>
           <ul>
               <li className='my-5 fs-5'>This Portfolio app utilizes React. Integrates Bootstrap, FontAwesome, and Firebase.</li>
           </ul>

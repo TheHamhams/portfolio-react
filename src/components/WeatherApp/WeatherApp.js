@@ -9,7 +9,7 @@ export const WeatherApp = () => {
   return (
     <div className='background py-5'>
     
-    <Container className='rounded my-5 cus-font'>
+    <Container className='rounded my-5 cus-font cont px-5'>
       <Row className='d-flex'>
         <Col className='fire rounded col-7'>
           <h3 className='text-start fs-1'>Full Stack Developer Weather App</h3>

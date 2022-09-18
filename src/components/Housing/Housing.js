@@ -9,7 +9,7 @@ export const Housing = () => {
   return (
     <div className='background py-5'>
     
-    <Container className='rounded my-5 cus-font'>
+    <Container className='rounded my-5 cus-font cont px-3'>
       <Row className='d-flex'>
         <Col className='col-4'>
           <Image fluid rounded src={House} />
