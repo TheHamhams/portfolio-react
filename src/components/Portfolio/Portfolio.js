@@ -16,8 +16,8 @@ export const Portfolio = () => {
           <ul>
               <li className='my-5 fs-5'>This Portfolio app utilizes React. Integrates Bootstrap, FontAwesome, and Firebase.</li>
           </ul>
-          <Button className='mx-5' variant='dark' href='/'><span className="fire"><FontAwesomeIcon icon={faCircleUser} /> Visit</span></Button>
-          <Button className="mx-5" variant='dark' href='https://github.com/TheHamhams/portfolio-react'><span className='fire'><FontAwesomeIcon icon={faGithub} /> React</span></Button>
+          <Button className='mx-5' target='_blank' variant='dark' href='/'><span className="fire"><FontAwesomeIcon icon={faCircleUser} /> Visit</span></Button>
+          <Button className="mx-5" target='_blank' variant='dark' href='https://github.com/TheHamhams/portfolio-react'><span className='fire'><FontAwesomeIcon icon={faGithub} /> React</span></Button>
         </Col>
 
         <Col className='2' />
