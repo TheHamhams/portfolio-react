@@ -4,6 +4,7 @@ import './index.css';
 import { NavBar, Footer, Layout } from './components'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { firebaseConfig } from './firebaseConfig';
 
 
 

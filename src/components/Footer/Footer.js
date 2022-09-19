@@ -10,8 +10,8 @@ export const Footer = () => {
     <div className='container-bg fixed-bottom'>
         <Container className='p-2 container-bg text-left' >
             <MDBBtn className='mx-2' outline color='light' role='button' href='https://github.com/TheHamhams'><FontAwesomeIcon icon={faGithub} /></MDBBtn>
-            <MDBBtn className='mx-2' outline color='light' role='button' href='https://github.com/TheHamhams'><FontAwesomeIcon icon={faLinkedin} /></MDBBtn>
-            <MDBBtn className='mx-2' outline color='light' role='button' href='https://github.com/TheHamhams'><FontAwesomeIcon icon={faKaggle} /></MDBBtn>
+            <MDBBtn className='mx-2' outline color='light' role='button' href='https://www.linkedin.com/in/corey-hamren-6b3456173/'><FontAwesomeIcon icon={faLinkedin} /></MDBBtn>
+            <MDBBtn className='mx-2' outline color='light' role='button' href='https://www.kaggle.com/coreyhamren'><FontAwesomeIcon icon={faKaggle} /></MDBBtn>
             <MDBBtn className='mx-2' outline color='light' role='button'><FontAwesomeIcon icon={faEnvelope} /></MDBBtn>Hamhams86@gmail.com
             <MDBBtn className='mx-2' outline color='light' role='button'><FontAwesomeIcon icon={faPhone} /></MDBBtn>(425) 327-9063
         </Container>
