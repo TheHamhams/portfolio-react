@@ -1,6 +1,7 @@
 import React from 'react'
 import { Home } from '../Home'
 import { Work } from '../Work'
+import { Resume } from '../Resume'
 
 export const Layout = () => {
   return (
@@ -14,6 +15,9 @@ export const Layout = () => {
         <Work />
     </div>
 
+    <div id='resume'>
+      <Resume />
+    </div>
 
 
     </div>

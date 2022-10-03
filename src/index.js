@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/';
 import './index.css';
-import { NavBar, Footer, Layout } from './components'
+import { NavBar, Footer, Layout, PDF } from './components'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { firebaseConfig } from './firebaseConfig';
@@ -14,11 +14,18 @@ ReactDOM.render(
   <Router>
     <Switch>
 
-      <Route exaxt path='/'>
+      <Route exact path='/'>
         <NavBar />
         <Layout />
         <Footer />
       </Route>
+
+      <Route exact path='/pdf'>
+        <NavBar />
+        <PDF />
+        <Footer />
+      </Route>
+
 
 
     </Switch>

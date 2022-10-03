@@ -13,8 +13,9 @@ export const NavBar = () => {
     <Container>
       <Navbar.Brand className="p-3 rounded fire fs-1" style={{color: 'var(--flame)'}}>Corey Hamren</Navbar.Brand> 
       <Nav className='ms-auto'>
-        <Nav.Link className="p-3 mx-2 rounded nav-style lernk" style={{color: 'var(--flame)'}} href='#home'>Home</Nav.Link>
-        <Nav.Link className="p-3 mx-2 rounded nav-style lernk" style={{color: 'var(--flame)'}} href='#work'>Work</Nav.Link>
+        <Nav.Link className="p-3 mx-2 rounded nav-style lernk" style={{color: 'var(--flame)'}} href='/#home'>Home</Nav.Link>
+        <Nav.Link className="p-3 mx-2 rounded nav-style lernk" style={{color: 'var(--flame)'}} href='/#work'>Work</Nav.Link>
+        <Nav.Link className="p-3 mx-2 rounded nav-style lernk" style={{color: 'var(--flame)'}} href='/#resume'>Resume</Nav.Link>
       </Nav>
     </Container>
   </Navbar>
