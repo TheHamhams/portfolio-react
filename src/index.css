@@ -4,6 +4,11 @@
   --black-olive: #403d39ff;
   --eerie-black: #252422ff;
   --flame: #eb5e28ff;
+  --r-blue: #31426a;
+  --r-offw: #dfdddd;
+  --r-orange: #ef7828;
+  --r-white: #ffffff;
+  --r-gray: #595959;
 }
 
 body {
@@ -25,29 +30,63 @@ body, html {
 }
 
 h3 {
-  color: var(--flame)
+  color: var(--r-blue)
+}
+
+.navbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: black;
 }
 
 .background {
-  background-color: var(--eerie-black);
+  background-color: var(--r-white);
+}
+
+.background-off {
+  background-color: var(--r-offw);
 }
 
 .container-bg {
-  background-color: var(--black-olive);
-  color: var(--flame)
+  background-color: var(--r-blue);
+  color: var(--r-white)
+}
+
+.contact {
+  margin-left: 26vh;
+}
+
+.btn:disabled {
+  color: black !important;
 }
 
 .fire {
-  color: var(--floral-white)
+  color: var(--r-white)
+}
+
+.contact-btn {
+  padding-left: 14px !important;
+  padding-right: 14px !important;
 }
 
 .nav-style {
-  color: var(--flame);
-  background-color: var(--eerie-black);
+  color: var(--r-white);
+  background-color: var(--r-blue);
 }
 
 .lernk:hover {
-  background-color: var(--floral-white);
+  background-color: var(--r-gray);
+}
+
+.btn:hover {
+  background-color: var(--r-blue) !important;
 }
 
 .cus-font {
@@ -55,15 +94,19 @@ h3 {
 }
 
 .large {
-  font-size: 8vh;
+  font-size: 6vh;
 }
 
 .btn-fire {
-  background-color: var(--flame);
+  background-color: var(--r-orange);
+}
+
+.btn-orange {
+  background-color: var(--r-orange) !important;
+  color: var(--r-white);
 }
 
 .cont {
-  background-color: rgb(24, 23, 23);
   padding: 5vh;
   
 }

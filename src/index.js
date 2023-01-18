@@ -10,20 +10,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-  
+
   <Router>
     <Switch>
 
       <Route exact path='/'>
         <NavBar />
         <Layout />
-        <Footer />
+        {/* <Footer /> */}
       </Route>
 
       <Route exact path='/pdf'>
         <NavBar />
         <PDF />
-        <Footer />
+        {/* <Footer /> */}
       </Route>
 
 
