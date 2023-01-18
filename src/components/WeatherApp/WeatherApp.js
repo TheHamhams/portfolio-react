@@ -17,7 +17,7 @@ export const WeatherApp = () => {
               <li className='my-5 fs-5'>Created a web app with React for front-end and Flask for back-end enabling users  to login with Auth0, save their location and up to 3 others in an ElephantSQL database</li>
               <li className='fs-5'>Leveraged weather.gov’s API to get the current weather forecast for those locations.</li>
           </ul>
-          <Button className='mx-5' target='_blank' variant='dark' href='https://weather-to-go-out-app.firebaseapp.com/'><span className="fire"><FontAwesomeIcon icon={faSun} /> Visit</span></Button>
+          <Button className='mx-5' target='_blank' variant='dark' href='https://hamren-wtgot.firebaseapp.com'><span className="fire"><FontAwesomeIcon icon={faSun} /> Visit</span></Button>
           <Button className="mx-5" target='_blank' variant='dark' href='https://github.com/TheHamhams/capstone-weather'><span className='fire'><FontAwesomeIcon icon={faGithub} /> React</span></Button>
           <Button className='mx-5' target='_blank' variant='dark' href='https://github.com/TheHamhams/weather-flask'><span className='fire'><FontAwesomeIcon icon={faGithub} /> Flask</span></Button>
         </Col>
