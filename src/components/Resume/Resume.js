@@ -12,7 +12,7 @@ export const Resume = () => {
     <Container className='rounded my-5 cus-font cont px-3'>
       <Row className='d-flex'>
 
-        <Col className='fire rounded col-5 justify-content-center'>
+        <Col className='fire rounded col-sm-12 col-md-5 justify-content-center'>
           <h3 className='text-center fs-1 py-5'>Contact</h3>
           <ul className='text-start contact'>
           <li><MDBBtn className='mx-2' size='small' target='_blank' outline color='dark' role='button' href='https://github.com/TheHamhams'><FontAwesomeIcon icon={faGithub} /></MDBBtn>Github</li>
@@ -22,8 +22,8 @@ export const Resume = () => {
           <li><MDBBtn className='mx-2' outline color='dark' role='button' disabled><FontAwesomeIcon icon={faPhone} /></MDBBtn>(425) 327-9063</li>
           </ul>
         </Col>
-        <Col className='col-1'></Col>
-        <Col className='col-6'>
+        <Col className='col-md-1'/>
+        <Col className='col-sm-12 col-md-6'>
           <Image fluid rounded src={Picture} />
           <div className='text-center'>
             <br/>

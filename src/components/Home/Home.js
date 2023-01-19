@@ -8,14 +8,14 @@ export const Home = () => {
 
       <Container className='rounded mt-5 font-weight-bold '>
         <Row className='d-flex align-items-center'>
-          <Col className='fire rounded col-5'>
+          <Col className='fire rounded col-sm-12 col-md-5'>
             <h3 className='text-start large'>Full Stack Developer</h3>
             <h3 className='text-start large'>& Data Science</h3>
           </Col>
 
-          <Col className='col-1' />
+          <Col className='col-md-1' />
 
-          <Col className='col-6'>
+          <Col className='col-sm-12 col-md-6'>
             <Image fluid roundedCircle src={Pic} />
           </Col>
         </Row>
