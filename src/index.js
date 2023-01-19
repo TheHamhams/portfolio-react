@@ -17,13 +17,13 @@ ReactDOM.render(
       <Route exact path='/'>
         <NavBar />
         <Layout />
-        {/* <Footer /> */}
+        <Footer />
       </Route>
 
       <Route exact path='/pdf'>
         <NavBar />
         <PDF />
-        {/* <Footer /> */}
+        <Footer />
       </Route>
 
 

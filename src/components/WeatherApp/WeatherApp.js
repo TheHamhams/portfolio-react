@@ -11,6 +11,13 @@ export const WeatherApp = () => {
     
     <Container className='rounded my-5 cus-font cont px-5'>
       <Row className='d-flex'>
+
+        <Col className='col-6'>
+          <Image fluid rounded src={WTGOT} />
+        </Col>
+
+        <Col className='col-1' />
+        
         <Col className='fire rounded col-5'>
           <h3 className='text-start fs-1'>Full Stack Developer Weather App</h3>
           <ul>
@@ -20,12 +27,6 @@ export const WeatherApp = () => {
           <Button className='mx-3' target='_blank' variant='orange' href='https://hamren-wtgot.firebaseapp.com'><span className="fire"><FontAwesomeIcon icon={faSun} /> Visit</span></Button>
           <Button className="mx-3" target='_blank' variant='orange' href='https://github.com/TheHamhams/capstone-weather'><span className='fire'><FontAwesomeIcon icon={faGithub} /> React</span></Button>
           <Button className='mx-3' target='_blank' variant='orange' href='https://github.com/TheHamhams/weather-flask'><span className='fire'><FontAwesomeIcon icon={faGithub} /> Flask</span></Button>
-        </Col>
-
-        <Col className='col-1' />
-
-        <Col className='col-6'>
-          <Image fluid rounded src={WTGOT} />
         </Col>
       </Row>
     </Container>
