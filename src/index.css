@@ -40,6 +40,8 @@ h3 {
 
 ul {
   list-style: none;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 
 li {
@@ -60,7 +62,7 @@ li {
 }
 
 .contact {
-  margin-left: 18vh;
+  margin-left: 15vh;
 }
 
 .btn:disabled {
@@ -108,5 +110,8 @@ li {
 
 .cont {
   padding: 5vh;
-  
+}
+
+.mr {
+  margin-right: .5rem;
 }

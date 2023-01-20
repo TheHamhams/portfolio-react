@@ -6,7 +6,7 @@ import { Resume } from '../Resume'
 export const Layout = () => {
   return (
     <div className='background py-5'>
-    
+
     <div id='home'>
         <Home />
     </div>

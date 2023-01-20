@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div className='container-bg py-1 text-center'>
         <p className='mt-3'>
-          Created and coded by Corey Hamren
+          Created and coded by Corey Hamren. See the repo at <MDBBtn className='mx-1' size='small' target='_blank' outline color='light' role='button' href='https://github.com/TheHamhams/portfolio-react'><FontAwesomeIcon icon={faGithub} /></MDBBtn>
         </p>
     </div>
   )
