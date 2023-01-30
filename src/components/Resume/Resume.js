@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Container, Row, Col, Image } from 'react-bootstrap'
-import Picture from '../../assets/images/resume.png'
+import Picture from '../../assets/images/python.jpg'
 import { MDBBtn } from 'mdb-react-ui-kit'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faKaggle } from '@fortawesome/free-brands-svg-icons'
@@ -9,7 +9,7 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 export const Resume = () => {
   return (
     <div className='background'>
-    <Container className='rounded my-5cont px-3'>
+    <Container className='rounded cont px-3'>
       <Row className='d-flex'>
 
         <Col className='fire rounded col-12 col-md-5 justify-content-center'>
